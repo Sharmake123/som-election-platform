@@ -13,7 +13,7 @@ This platform facilitates the entire electoral process, from voter registration 
 
 ## 📸 Project Screenshots
 
-Please ensure your screenshots are named as follows in the `screenshots/` folder:
+Here’s The project visual:
 
 | **Public Portal** | **Candidate Profile** |
 |:---:|:---:|
