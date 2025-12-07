@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOM Election - ER Diagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+            text-align: center;
+            background-color: #f9fafb;
+        }
+
+        h1 {
+            color: #111827;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            display: inline-block;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            transition: background 0.2s;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        @media print {
+            button {
+                display: none;
+            }
+
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SOM Election Database Schema</h1>
+    <p>Entity Relationship Diagram (ERD)</p>
+
+    <button onclick="window.print()">Download / Save as PDF</button>
+
+    <br>
+
+    <div class="container">
+        <div class="mermaid">
+            erDiagram
+            User ||--o{ Vote : "casts"
+            Election ||--o{ Candidate : "has"
+            Election ||--o{ Vote : "contains"
+            Candidate ||--o{ Vote : "receives"
+
+            Message {
+            int id PK
+            string name
+            string email
+            string subject
+            text message
+            enum status "New, Read, Replied"
+            datetime createdAt
+            datetime updatedAt
+            }
+
+            User {
+            int id PK
+            string username
+            string email
+            string password
+            string mobile
+            string nationalId
+            date dob
+            string photo
+            enum role "voter, admin"
+            enum status "Pending, Verified"
+            datetime createdAt
+            datetime updatedAt
+            }
+
+            Election {
+            int id PK
+            string name
+            string position
+            datetime startDate
+            datetime endDate
+            enum status "Upcoming, Active, Completed"
+            datetime createdAt
+            datetime updatedAt
+            }
+
+            Candidate {
+            int id PK
+            string fullName
+            string email
+            string photo
+            text bio
+            int ElectionId FK
+            datetime createdAt
+            datetime updatedAt
+            }
+
+            Vote {
+            int id PK
+            int UserId FK
+            int ElectionId FK
+            int CandidateId FK
+            datetime createdAt
+            datetime updatedAt
+            }
+        </div>
+    </div>
+
+    <div class="documentation">
+        <h2>Schema Documentation</h2>
+
+        <div class="doc-section">
+            <h3>Entities</h3>
+            <ul>
+                <li><strong>User:</strong> Represents all system users, including Voters and Admins. Distinguished by
+                    the <code>role</code> field.</li>
+                <li><strong>Election:</strong> Represents an election event (e.g., "Presidential Election 2025") with a
+                    start and end date.</li>
+                <li><strong>Candidate:</strong> A person running for a specific election. Linked to an Election via
+                    <code>ElectionId</code>.</li>
+                <li><strong>Vote:</strong> A record of a user's choice in an election. Links User, Election, and
+                    Candidate.</li>
+                <li><strong>Message:</strong> Stores inquiries and complaints submitted via the public "Contact Us"
+                    form.</li>
+            </ul>
+        </div>
+
+        <div class="doc-section">
+            <h3>Relationships</h3>
+            <ul>
+                <li><strong>User casts Vote (1:N):</strong> A single user can cast multiple votes across different
+                    elections, but is restricted to <strong>one vote per election</strong> by a unique constraint.</li>
+                <li><strong>Election has Candidates (1:N):</strong> An election consists of multiple candidates
+                    competing for the position.</li>
+                <li><strong>Election contains Votes (1:N):</strong> An election aggregates all the votes cast within it.
+                </li>
+                <li><strong>Candidate receives Votes (1:N):</strong> A candidate can receive many votes from different
+                    users.</li>
+            </ul>
+        </div>
+    </div>
+
+    <style>
+        .documentation {
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: left;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .documentation h2 {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .documentation h3 {
+            color: #1e3a8a;
+            margin-top: 20px;
+        }
+
+        .documentation ul {
+            line-height: 1.6;
+            color: #374151;
+        }
+
+        .documentation li {
+            margin-bottom: 10px;
+        }
+
+        @media print {
+            .documentation {
+                box-shadow: none;
+                padding: 0;
+                margin-top: 20px;
+            }
+        }
+    </style>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#dbeafe',
+                primaryTextColor: '#1e3a8a',
+                primaryBorderColor: '#2563eb',
+                lineColor: '#9ca3af',
+                secondaryColor: '#f3f4f6',
+                tertiaryColor: '#fff'
+            }
+        });
+    </script>
+</body>
+
+</html>

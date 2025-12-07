@@ -1,0 +1,40 @@
+{
+    "appName": "SOM-ELECTION",
+    "navHome": "Nyumbani",
+    "navAbout": "Kutuhusu",
+    "navContact": "Wasiliana Nasi",
+    "login": "Ingia",
+    "getStarted": "Anza Sasa",
+    "aboutUs": {
+        "hero": {
+            "title": "Gundua Kazi Yetu: Kujenga Mustakabali Wenye Matumaini",
+            "subtitle": "Sisi ni shirika lililojitolea kwa maendeleo ya jamii ya Somalia kupitia miradi yenye matokeo chanya inayobadilisha maisha ya watu. Safari yetu ilianza na ndoto ya kuleta mabadiliko ya kudumu."
+        },
+        "mission": {
+            "heading": "Dhamira Yetu",
+            "title": "Kuiwezesha Jamii, Kujenga Taifa",
+            "description": "Dhamira yetu ni kujenga jamii inayojitegemea yenye uwezo wa kukabiliana na changamoto, kupitia programu za elimu, afya, na maendeleo ya kiuchumi zinazolingana na mahitaji ya eneo."
+        },
+        "values": {
+            "title": "Maadili Yetu ya Msingi",
+            "items": [
+                { "icon": "StarIcon", "title": "Uwazi na Uwajibikaji", "description": "Tunafanya kazi kwa uwazi na uadilifu, tukihakikisha shughuli zetu zote zinawajibika kwa jamii tunayoihudumia na wafadhili wetu." },
+                { "icon": "UserGroupIcon", "title": "Ushirikiano na Ubia", "description": "Tunaamini ushirikiano ndio ufunguo wa mafanikio. Tunafanya kazi kwa karibu na mashirika ya ndani na ya kimataifa kufikia malengo yetu." },
+                { "icon": "ArrowTrendingUpIcon", "title": "Ubunifu na Uboreshaji Endelevu", "description": "Tunatafuta njia mpya na za kibunifu kila wakati kutatua matatizo ya kijamii, tukitumia teknolojia ya kisasa na mawazo ya hali ya juu." }
+            ]
+        },
+        "team": {
+            "title": "Kutana na Timu Yetu Mahiri",
+            "subtitle": "Mafanikio yetu yanategemea timu yetu, ambayo inachanganya uzoefu na maarifa, ikiwa imeunganishwa na maono ya pamoja.",
+            "members": [
+                { "name": "Juma Mwinyi", "title": "Mwenyekiti Mkuu", "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=80" },
+                { "name": "Asha Bakari", "title": "Mkurugenzi Mtendaji", "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&q=80" },
+                { "name": "Suleiman Omar", "title": "Mkuu wa Miradi", "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&q=80" }
+            ]
+        },
+        "cta": {
+            "title": "Kuwa Sehemu ya Mabadiliko Chanya",
+            "button": "Wasiliana Nasi Leo"
+        }
+    }
+}

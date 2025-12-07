@@ -1,0 +1,5 @@
+{
+  "name": "SOM-ELECTION",
+  "description": "A secure, modern, and user-friendly full-stack web application for conducting online elections in Somalia. It includes a public website, a voter portal, and an admin dashboard.",
+  "requestFramePermissions": []
+}

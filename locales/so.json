@@ -1,0 +1,40 @@
+{
+    "appName": "SOM-ELECTION",
+    "navHome": "Guriga",
+    "navAbout": "Nagusaabsan",
+    "navContact": "Nala Soo Xiriir",
+    "login": "Gal",
+    "getStarted": "Hadda Bilow",
+    "aboutUs": {
+        "hero": {
+            "title": "Baro Waxqabadkayaga: Dhisidda Mustaqbal Rajo Leh",
+            "subtitle": "Waxaan nahay urur u heellan horumarinta bulshada Soomaaliyeed iyadoo loo marayo mashaariic waxtar leh oo wax ka beddelaya nolosha dadka. Safarkayagu wuxuu ku bilaabmay riyo ah in la abuuro isbeddel togan oo waara."
+        },
+        "mission": {
+            "heading": "Hadafkayaga",
+            "title": "Awoodsiinta Bulshada, Dhisidda Qaran",
+            "description": "Hadafkayagu waa inaan dhisno bulsho isku filan oo leh awood ay kaga gudubto caqabadaha, anagoo adeegsanayna barnaamijyo waxbarasho, caafimaad, iyo horumarin dhaqaale oo ku salaysan baahida deegaanka."
+        },
+        "values": {
+            "title": "Qiyamkayaga Asaasiga ah",
+            "items": [
+                { "icon": "StarIcon", "title": "Daahfurnaan & Isla-xisaabtan", "description": "Waxaan ku shaqaynaa si daahfuran oo hufan, anagoo hubinayna in dhammaan hawlahayaga ay yihiin kuwo lala xisaabtami karo bulshada aan u adeegno iyo deeq-bixiyayaashayada." },
+                { "icon": "UserGroupIcon", "title": "Wadashaqeyn & Iskaashi", "description": "Waxaan aaminsannahay in iskaashiga iyo wadashaqeyntu ay yihiin furaha guusha. Waxaan si dhow ula shaqaynaa hay'adaha maxalliga ah iyo kuwa caalamiga ah si aan u gaarno yoolalkayaga." },
+                { "icon": "ArrowTrendingUpIcon", "title": "Hal-abuur & Horumar Joogto ah", "description": "Waxaan si joogto ah u raadinaa habab cusub oo hal-abuur leh si aan wax uga qabanno dhibaatooyinka bulshada, anagoo ka faa'iideysaneyna tikniyoolajiyadda casriga ah iyo fikradaha horumarsan." }
+            ]
+        },
+        "team": {
+            "title": "La Kulun Kooxdayada Hawlkarnimada Leh",
+            "subtitle": "Guushayadu waxay ku xiran tay kooxdayada oo ah dad khibrad iyo aqoon isugu darsaday, kuna mideysan himilo isku mid ah.",
+            "members": [
+                { "name": "Faarax Axmed", "title": "Guddoomiyaha Guud", "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=80" },
+                { "name": "Hibo Aadan", "title": "Agaasimaha Fulinta", "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&q=80" },
+                { "name": "Cali Yuusuf", "title": "Madaxa Barnaamijyada", "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&q=80" }
+            ]
+        },
+        "cta": {
+            "title": "Ka Mid Noqo Isbeddelka Wanaagsan",
+            "button": "Nala Soo Xiriir Maanta"
+        }
+    }
+}

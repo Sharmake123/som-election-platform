@@ -1,0 +1,140 @@
+{
+  "appName": "SOM-ELECTION",
+  "navHome": "Home",
+  "navAbout": "About",
+  "navContact": "Contact",
+  "login": "Login",
+  "getStarted": "Get Started",
+  "heroTitle1": "One Person, One Vote",
+  "heroTitle2": "Equality and Justice",
+  "heroSubtitle": "The most secure digital voting platform, ensuring the safety and transparency of elections.",
+  "startNow": "Start Now",
+  "platformDemo": "Platform Demo",
+  "candidatesTitle": "Somalia's Democratic Culture",
+  "candidatesSubtitle": "Meet some of the candidates running in the elections.",
+  "techTitle": "Built on the latest technology",
+  "aboutTitle": "Pioneering a New Era of Democracy in Somalia",
+  "aboutSubtitle": "Our mission is to build a secure, transparent, and accessible digital voting platform for every Somali citizen.",
+  "missionTitle": "Our Mission",
+  "missionSubtitle": "One Person, One Vote — Equality and Justice",
+  "missionDescription": "We are dedicated to empowering the Somali people by providing a trustworthy digital infrastructure for elections. By leveraging modern technology, we aim to eliminate fraud, increase voter participation, and ensure that every voice is heard and counted, fostering a future of stability and progress.",
+  "featuresTitle": "Core Principles of Our Platform",
+  "feature1Title": "Unalterable Security",
+  "feature1Desc": "Utilizing blockchain technology, every vote is cryptographically secured and recorded on an immutable ledger, making tampering virtually impossible.",
+  "feature2Title": "Transparent Auditing",
+  "feature2Desc": "Results are verifiable and transparent. Citizens and observers can audit the electoral process in real-time, building unprecedented trust.",
+  "feature3Title": "Inclusive Accessibility",
+  "feature3Desc": "Designed to be simple and accessible, our platform allows eligible citizens to vote securely from anywhere, breaking down geographical barriers.",
+  "contactTitle": "Get in Touch",
+  "contactSubtitle": "We are here to help. Whether you have a question about voter registration, our technology, or partnership opportunities, please reach out.",
+  "ourValuesTitle": "Our Core Values",
+  "value1Title": "Integrity",
+  "value1Desc": "We operate with unwavering honesty and transparency. Every decision is guided by a commitment to ethical conduct and accountability.",
+  "value2Title": "Inclusivity",
+  "value2Desc": "Democracy is for everyone. We build our platform to be accessible to all Somalis, regardless of location, literacy, or ability.",
+  "value3Title": "Innovation",
+  "value3Desc": "We continuously push the boundaries of technology to deliver the most secure and user-friendly voting experience possible.",
+  "teamTitle": "Meet the Team",
+  "teamSubtitle": "A passionate group of Somali innovators dedicated to strengthening our nation's democracy.",
+  "teamMember1Name": "Fatima Ahmed",
+  "teamMember1Title": "Founder & CEO",
+  "teamMember2Name": "Hassan Ali",
+  "teamMember2Title": "Lead Blockchain Developer",
+  "teamMember3Name": "Aisha Yusuf",
+  "teamMember3Title": "Head of User Experience",
+  "getInvolvedTitle": "Join Us in Building a Better Future",
+  "contactInfoTitle": "Contact Information",
+  "contactInfoDesc": "Fill out the form and our team will respond within 24 hours.",
+  "contactPhone": "Phone:",
+  "contactEmail": "Email:",
+  "contactAddress": "Address:",
+  "testimonialsTitle": "What our partners say",
+  "ctaTitle": "Ready to change Somalia's elections?",
+  "ctaSubtitle": "Join us in the democratic progress that will change the future of voting.",
+  "startToday": "Start Today",
+  "contactTeam": "Contact Our Team",
+  "footerSlogan": "Secure and transparent online voting for Somalia.",
+  "quickLinks": "Quick Links",
+  "aboutUs": {
+    "hero": {
+      "title": "Discover Our Work: Building a Hopeful Future",
+      "subtitle": "We are an organization dedicated to the development of Somali society through impactful projects that change people's lives. Our journey began with a dream to create lasting positive change."
+    },
+    "mission": {
+      "heading": "Our Mission",
+      "title": "Empowering the Community, Building a Nation",
+      "description": "Our mission is to build a self-sufficient society with the ability to overcome challenges, using educational, health, and economic development programs based on local needs."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": [
+        {
+          "icon": "StarIcon",
+          "title": "Transparency & Accountability",
+          "description": "We operate with transparency and integrity, ensuring that all our activities are accountable to the community we serve and our donors."
+        },
+        {
+          "icon": "UserGroupIcon",
+          "title": "Collaboration & Partnership",
+          "description": "We believe that cooperation and collaboration are the keys to success. We work closely with local and international organizations to achieve our goals."
+        },
+        {
+          "icon": "ArrowTrendingUpIcon",
+          "title": "Innovation & Continuous Improvement",
+          "description": "We constantly seek new and innovative ways to address social problems, taking advantage of modern technology and advanced ideas."
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet Our Dedicated Team",
+      "subtitle": "Our success depends on our team, which combines experience and knowledge, united by a common vision.",
+      "members": [
+        {
+          "name": "Farah Ahmed",
+          "title": "General Chairman",
+          "imageUrl": "/team-1.jpg"
+        },
+        {
+          "name": "Hibo Adan",
+          "title": "Executive Director",
+          "imageUrl": "/team-2.png"
+        },
+        {
+          "name": "Ali Yusuf",
+          "title": "Head of Programs",
+          "imageUrl": "/team-3.png"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Be Part of the Positive Change",
+      "button": "Contact Us Today"
+    }
+  },
+  "faq": "FAQ",
+  "contactInfo": "Contact Info",
+  "followUs": "Follow Us",
+  "copyright": "© 2024 SOM-ELECTION. All Rights Reserved.",
+  "loginTitle": "Access your secure dashboard",
+  "voterLogin": "Voter Login",
+  "adminLogin": "Admin Login",
+  "welcomeBack": "Welcome Back",
+  "signInToVote": "Sign in to cast your vote.",
+  "signInToManage": "Sign in to manage elections.",
+  "username": "Username",
+  "password": "Password",
+  "signIn": "Sign In",
+  "signingIn": "Signing In...",
+  "noAccount": "Don't have an account?",
+  "registerNow": "Register now",
+  "registerTitle": "Create your Voter Account",
+  "registerSubtitle": "Join the future of voting in Somalia.",
+  "email": "Email",
+  "reenterPassword": "Re-enter Password",
+  "mobile": "Mobile",
+  "nationalId": "National ID",
+  "dob": "Date of Birth",
+  "register": "Register",
+  "registering": "Registering...",
+  "haveAccount": "Already have an account?"
+}
